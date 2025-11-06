@@ -1,0 +1,73 @@
+Ques 1 : Basic Calculator - Adding Numbers (using Named functions)
+--------
+Description -
+    Imagine you're building a simple web-based calculator. When a user inputs two numbers and clicks "Add", you need a reliable way to perform this basic arithmetic operation. A named     function is perfect for this because adding numbers is a common, repeatable task.
+
+Steps -
+    - Create a named function called addTwoNumbers.
+
+    - It should accept two inputs: num1 and num2.
+
+    - Inside the function, add num1 and num2.
+
+    - The function should give back (return) the calculated sum.
+
+    - Call the function with different pairs of numbers to test it.
+
+Test Cases -
+
+    Sample input : num1 = 3, num2 = 5
+    Sample output : 3 + 5 = 8
+
+    Sample input : num1 = 3, num2 = 5
+    Sample output : 3 + 5 = 8
+======================================================================================================================================
+
+Ques 2 :  Personalized Greeting Message
+--------
+Description :
+    When a user logs into their account (e.g., on a social media site, an online store, or a news portal), you want to greet them by name. Instead of writing console.log("Hello,     [username]! Welcome back!"); everywhere, a function makes this greeting consistent and easy to update.
+
+Steps :
+
+    - Create a named function called createWelcomeMessage.
+
+    - It should accept one object: user.
+
+    - Inside the function, combine a fixed greeting phrase with the object properties.
+
+    - The function should return the complete greeting string.
+
+    - Call the function with different user objects.
+
+Test Cases :
+
+    Sample Input : user object : name : "Ravindra", address : "Ameerpet Hyderabad", institute : "Naresh i technologies", batch : "Java 51"
+    Sample Output: Hello, Ravindra! Welcome to our platform!
+           
+
+    Sample Input : Guest
+    Sample Output: Hello, Guest! Welcome to our platform!
+
+===================================================================================================================================
+
+Ques 3 : Merge two arrays
+--------
+Description :
+   Write a JavaScript program to merge two arrays by removing duplicate values.
+Steps:
+
+    - Create a named function called mergeArrays.
+
+    - It should accept two inputs: Array 1 (Array) and Array 2 (Array).
+
+    - First, check if array1.length and array2.length is less than or equal to 0. If so, return false immediately.
+
+    - After checking merged array, if it has the duplicate elements then remove the duplicate elements and print the array
+
+Test Cases :
+
+    Sample Input : arr1 [1,2,3,4], arr2 [2,3,4,5,6]
+    Sample Output: [1,5,6]
+
+======================================================================================================

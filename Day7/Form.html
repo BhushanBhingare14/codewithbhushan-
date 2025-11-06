@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h1>HTML Forms Demonstration</h1>
+    <ol type="1">
+        <h2>
+            <li>Contact Form</li>
+        </h2>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <form action="main.java">
+                <label for="name">Full Name</label>
+                <input type="text" placeholder="Jhon Doe" id="name">
+                <br><br>
+                <label for="em">Email Address:</label>
+                <input type="email" placeholder="example@gmail.com" id="em">
+                <br><br>
+                <label for="num">Phone Number:</label>
+                <input type="number" placeholder="123-456-7890" id="num">
+                <br><br>
+                <label for="fd">Your Message:</label>
+                <br><br>
+                <textarea name="enter" placeholder="Type the Message here..." id="fd"></textarea>
+                <br><br>
+
+                <input type="checkbox" name="Subscribe to our newsletter" id="ck">
+                <label for="ck">Subscribe to our newsletter</label>
+                <br><br>
+                <button>Submit</button>
+                <button>Clear Form</button>
+
+            </form>
+        </fieldset>
+        <h2>
+            <li>User Registration Form</li>
+        </h2>
+        <fieldset>
+            <Legend>Create Account</Legend>
+            <form>
+                <label for="name">Username:</label>
+                <input type="text" id="name">
+                <br><br>
+                <label for="pd">Password:</label>
+                <input type="password" id="pd">
+                <br><br>
+                <label for="pd1">Confirm Password:</label>
+                <input type="password" id="pd1">
+                <br><br>
+                <label for="dt">Date of Birth:</label>
+                <input type="date" id="dt">
+                <br><br>
+                <label for="g">Gender</label>
+                <br><br>
+                <input type="radio" name="Gender" value="Male" id="g">
+                <label for="m">Male</label>
+                <br>
+                <input type="radio" name="Gender" value="Female" id="f">
+                <label for="f">female</label>
+                <br>
+                <input type="radio" name="Gender" value="Other" id="0">
+                <label for="0">Other</label>
+                <br><br>
+
+
+                <select>
+                    <option value="--Select Country--">--Select Country--</option>
+                    <option value="India">India</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Srilanka">Srilanka</option>
+                </select>
+                <br><br>
+                <input type="checkbox" name="" id="fd2">
+                <label for="fd2">I agree to the <a href="">Terms and conditions</a></label>
+                <br><br>
+                <button>Register</button>
+            </form>
+        </fieldset>
+        <h2>
+            <li>Customer Feedback Survey</li>
+        </h2>
+        <fieldset>
+            <legend>Survey Information</legend>
+            <label>How satisfied are you with our services?</label>
+            <br><br>
+            <input type="range" placeholder><span>5/10</span>
+            <br><br>
+            <label>Which product have you used?(select all that apply)</lable>
+                <br>
+
+                <input type="checkbox" name="" id="66">
+                <label>Product A</label>
+                <br>
+                <input type="checkbox" name="" id="67">
+                <label>Product B</label>
+                <br>
+                <input type="checkbox" name="" id="68">
+                <label>Product C</label>
+                <br>
+                <input type="checkbox" name="" id="67">
+                <label>Product D</label>
+                <br><br>
+                <label>How often do you use our services?</label>
+                <br>
+                <select>
+                    <option value="--Select Country--">--Select Country--</option>
+                    <option value="India">India</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Srilanka">Srilanka</option>
+                </select>
+                <br><br>
+                <label for="fd">Do you have any suggestions for improvement?</label>
+                <br>
+                <textarea name="enter" placeholder="Type the Message here..." id="fd"></textarea>
+                <br><br>
+                <label>How likely are you to recommended us ?</label>
+                <br><br>
+                <input type="radio" name="" id="77">
+                <label for="77">Very likely</label>
+                <br>
+                <input type="radio" name="" id="78">
+                <label for="78">Likely</label>
+                <br>
+                <input type="radio" name="" id="79">
+                <label for="79">Netural</label>
+                <br>
+                <input type="radio" name="" id="80">
+                <label for="80">Unlikely</label>
+                <br>
+                <input type="radio" name="" id="81">
+                <label for="81">Very likely</label>
+                <br>
+                <button>Submit Survey</button>
+
+
+
+
+
+
+        </fieldset>
+    </ol>
+
+</body>
+
+</html>

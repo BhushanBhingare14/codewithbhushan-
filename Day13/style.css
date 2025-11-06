@@ -1,0 +1,106 @@
+body {
+  margin-top: 50px;
+}
+.class1 {
+  margin: 10px;
+  padding: 10px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  border-radius: 5px;
+  display: inline-block;
+  background-color: rgb(6, 6, 241);
+  position: solid;
+}
+
+h3 {
+  text-align: center;
+}
+.a {
+  height: 200px;
+  width: 200px vh;
+  border: 2px dashed;
+  margin: 3px;
+  align-items: center;
+}
+.b {
+  border-top: 3px solid hotpink;
+  border-radius: 15px;
+  height: 200px vh;
+  width: 200px vh;
+}
+.c {
+  height: 200px;
+  width: 200px vh;
+  border: 2px dashed;
+  margin: 3px;
+  align-items: center;
+}
+.class2 {
+  margin: 10px;
+  padding: 10px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  border-radius: 5px;
+  display: inline-block;
+  background-color: lightskyblue;
+  position: relative;
+  top: 50px;
+}
+.d {
+  height: 200px;
+  width: 200px vh;
+  border: 2px dashed;
+  margin: 3px;
+  align-items: center;
+}
+.class3 {
+  margin: 10px;
+  padding: 10px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  border-radius: 5px;
+
+  background-color: lightskyblue;
+  position: absolute;
+  right: 50px;
+}
+.class4 {
+  margin: 10px;
+  padding: 10px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: purple;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+.e {
+  height: 200px;
+  width: 200px vh;
+  border: 2px dashed;
+  margin: 3px;
+  align-items: center;
+}
+.class5 {
+  margin: 10px;
+  padding: 10px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: grey;
+  position: sticky;
+  top : 20px;
+}
+.f {
+  height: 200px vh;
+  width: 200px vh;
+  border: 2px dashed;
+  margin: 3px;
+  align-items: center;
+}

@@ -1,0 +1,74 @@
+body{
+    height: 100%vh;
+    background-color: rgb(161, 230, 23);
+}
+.flex{
+    display: flex;
+}
+.main{
+     height: 100px;
+  box-shadow: 10px 10px 10px rgb(128, 128, 128);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  margin: 6% auto;
+  border-radius: 10px;
+}
+.main span{
+ font-size: 30px;
+ font-weight: bold;
+}
+.wrapper {
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.cards {
+  width: 20%;
+  box-shadow: 10px 10px 10px rgb(128, 128, 128);
+  height: 800px;
+  border-radius: 10px;
+  /* padding: 20px; */
+  background-color: white;
+  flex-direction: row;
+}
+.img1 {
+  height: 50%;
+}
+.img1 img {
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.text {
+  margin: 20px;
+}
+.text h2 {
+  font-size: 40px;
+}
+
+.txt-container p {
+  font-size: 30px;
+}
+.btn {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 20px;
+  width: 40%;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.a {
+  background-color: rgb(89, 89, 177);
+}
+.b {
+  background-color: rgb(107, 195, 107);
+}
+.c {
+  background-color: rgb(89, 89, 177);
+}

@@ -1,0 +1,16 @@
+loops :
+
+1) Write a js code to print sum of array element
+
+2) Write a js code the sum of digit is equal to product of digits for a given number
+   eg = 144
+      1+4+4 = 9
+      1*4*4 = 16
+
+      sum == mul is a strong number or not a strong number
+
+  
+3) Using loops find the sum of nested arrays and print them
+     eg = [[10,20,10,50],[0,10,30,40],[10,10,10,10]]
+
+4) 

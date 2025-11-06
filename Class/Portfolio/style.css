@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+     background-color: #253439;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: azure;
+    font-size: 20px;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+    background-color: #A5C9A6;
+    
+}
+.body {
+    margin-top: 10px;
+    display: flex;
+
+    border: 2px solid;
+}
+
+.image img{
+    padding: 5px;
+    border-radius: 15px;
+   height:90vh; 
+   width:40vw;
+}
+.text{
+     margin-top: 50px;
+    
+    display: flex;
+   flex-direction: column;
+}
+.text{
+   text-align: center;
+     width: 60%;
+     color: azure; 
+     
+    font-size: 48px;
+}

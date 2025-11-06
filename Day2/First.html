@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>An in Depth look</title>
+</head>
+
+<body>
+  <h1>HTML Presentational and Formating Tags : An In Depth Look</h1>
+  <p>
+    This page is provides an extensive demonstration of various HTML tags
+    specially designed for texting formating and presentation. It highlights
+    how these tags influence the visual apppereance and semantic meaning of
+    the content without erlying on external CSS.
+  </p>
+  <hr />
+  <h1>Text Styling and Emphasis Tags</h1>
+  <p>
+    This tag are used to apply comman text styles like bold, italic
+    ,underline, and to convey different levela of emphasis or semantic
+    meaning.
+  </p>
+  <h2>Bold and Strong Emphasis</h2>
+  <p>
+    This sentence contain text that is rendering in a <b>bold</b>font style
+    using the b tag. The b tag is typically used for visually bolding the text
+    withoud adding any special semantic imaportance.
+  </p>
+  <p>
+    Conversely, this sentence has text conveys
+    <strong>Strong importance </strong> using the tags. While it often renders
+    as bold , its primary purpose is to indicate that the content is to
+    indicate that the content is of the greater importance or seriousness.
+  </p>
+  <p>
+    Conserding using strong for keywords in a warning or critical information,
+    a and b for names in an a article or product names that don't need
+    semantic emphasis.
+  </p>
+  <h2>Italic and Emphasized Text</h2>
+  <p>
+    Here, we have text that is displayed in an <i>italic </i>font are using
+    the i tag. The tag i is a generally used for text that needs to stand out,
+    visually, such as technically terms, foreign words or thoughts.
+  </p>
+  <p>
+    This is a sentence showscase text that is <em>emphasized </em>using the em
+    tag. The em tag add semantic emphasis, implying that the content should be
+    stressed or pronouned differently.
+  </p>
+  <p>
+    For instance, use en when you want to emphasis using the emohasis a words
+    in a sentence to change its meaning, and i for titles of works or
+    scientific names.
+  </p>
+  <h3>Underline and Inserted Text</h3>
+  <p>
+    This text is <u>underline</u> using the u tag. Historically, this was used
+    for visual understanding, but it's now often discouredge for non hyperling
+    text to avoid confuison. It can be used to represent text is unarticuled
+    but explicity rendersas if underline, such as misspellings.
+  </p>
+  <p>
+    This text is <insert>Inserted</insert> using the ins tag. This tag
+    semantically indicates content that has been added to a documents, often
+    with an underline.
+  </p>
+  <h3>Strikethrough and Delete Text</h3>
+  <p>
+    This text is <s>Strike through </s> using the s tag.This tag indictes
+    content that the longer accurate or revelant, bugt should not be removed
+    from the document. It's puerly presentational.
+  </p>
+  <p>
+    This text is <del>delete</del> using the del tag. This tag sentimentically
+    indicates content that has been removed from a document, often rendered
+    with a strikethrough.
+  </p>
+  <p>
+    Similar to ins, del can also have a datetime attribute:<del>Old price: $29.99</del>New price: $24.99.
+  </p>
+  <h3>Subscripyt and superscript</h3>
+  <p>
+    Chemical formula Often use subscript like H<sub>2</sub>O (water) where
+    the'2' is a sub element.
+  </p>
+  <p>
+    Mathematical expression or ordinal indictors use superscripts, such as F =
+    mc <sup>2</sup> or 10<sup>th</sup>,where the '2' and 'th' are sup
+    elements.
+  </p>
+  <h3>Marked (highlighted) Text</h3>
+  <p>
+    The mark tag is used to <mark>highlight</mark> or mark text that is of
+    particular revelance in the context of the content, often rendered with a
+    yellow background.
+  </p>
+  <h3>Small Text</h3>
+  <p>
+    This is normal text, and thi is <small>small text </small>tag. It
+    typically represent side comments, copyright, or legal disclamers.
+  </p>
+  <h3>Cited Work</h3>
+  <p>
+    The cite tag is used to denoted the tittle of a work . For example, as
+    famously quoted from <cite>Hamlet by William Shakespear, </cite><q>To be or not to be , that is the question</q>
+  </p>
+  <p>
+    Another example : The theory was first proposed in
+    <cite>On the Origin od Species</cite>
+  </p>
+  <hr />
+  <h3>Code, Variables, and Performatted Text</h3>
+  <p>
+    These tags are crucial for displaying programming code, user input, sample
+    output, and preserving text formatting.
+  </p>
+  <h3>Code Snipptes</h3>
+  <p>
+    For inline code, use the code tag. For example to print "Hello World!" in
+    python you <code>print("Hello World!")</code>.
+  </p>
+  <p>
+    When defining a function in Javascript :<code>function greet() { console.log ("Hi");}</code>
+  </p>
+  <h3>Keyboard Input</h3>
+  <p>
+    The <kbd></kbd> indicates user input, typically from a keyboard.To save a
+    document,<kbd> press Ctrl +s</kbd>.
+  </p>
+  <h3>Sample Output</h3>
+  <p>
+    The samp tag representsample output from a computerprogram. If the command
+    fails, you might see:<samp> Error :permisson denied</samp>.
+  </p>
+  <h3>Variables</h3>
+  <p>
+    The var tag is used to define a variable in a mathematical expression or a
+    programming content. In the formula for the area of the circle,
+    <var> A = &pi r <sup>2</sup></var>, <i>A</i> represent the area and <i>r</i> represent the radius.
+  </p>
+  <p>Anothe example : Let <i>x</i> be the number of apples.</p>
+  <h3>Preformatted Text</h3>
+  <p>
+    The pre tag preserve whitespace and line breaks exactly as they are
+    written in the HTML source code, making it deal for displaying code blocks
+    or ASCII art.
+  </p>
+  <pre>
+      <code>
+        functin example(data){
+          if (data === null){
+            return "No data";
+          }
+          return data.length;
+        }
+        This is a simple<br>
+        multi-line<br>
+        text block.
+      </code>
+    </pre>
+  <hr />
+  <h3>Quotes and Blockquotes</h3>
+  <p>
+    These tags are used for quoting text from other sources, disyinguishing
+    between short inline quotes and longer, block-level quotes.
+  </p>
+  <h3>Short Quotes</h3>
+  <p>
+    The q tag is used for short, inline quotations. My friends said,
+    <q>I'll be there in five minutes!</q> before hanging up.
+  </p>
+  <p>Another common phrase is, <q>Action speak louder than words.</q></p>
+  <h3>Blockquotes</h3>
+  <p>
+    The blackquote tag is used for longer question that are typically
+    displayed as a block. It often includes a citation.
+  </p>
+  <blackquote><q>Two roads diverged in yellow wood , And sorry I could not travel both
+      And be one traveler, long I stood And looked down one as far I could To
+      where it bent in the undergrowth.</q>--<cite>Robert Forst, The Road Not Taken</cite></blackquote>
+  <p>
+    This blockquote demonstrates how a large section of the quoted text is
+    rendered, typically with indention, and can include a citation using the
+    cite tag.
+  </p>
+  <hr />
+  <h3>Semantic Text Element (Beyond Basic Styling)</h3>
+  <p>
+    The tags add specific semantic meaning to text , which can be useful for
+    accessiblity, search engines, and more precise data representation.
+  </p>
+  <h3>Abbreviation and Acronyms</h3>
+  <p>
+    The abbr tag is the standard HTML tag used to define both
+    **abbreviation**and**Acronyms**. It's important for providing the full,
+    expanded from of a shortened word for pharse, which helps with
+    accessibility and search engine optimization.
+  </p>
+  <p>
+    You use the tittle atribute to provide the full discription. When a user
+    hover over the abbreviated text, the full form usually appears as a
+    tooltip.
+  </p>
+  <p>
+    For example: <abbr title="Hyper Text Markup Language">HTML</abbr> is the
+    standard markup language for creating web pages. This applies to acronyms
+    too ,like <abbr title="Cascading Style Sheet">CSS</abbr>
+  </p>
+  <p>
+    The older acronym tag was used specially for acronyms, but it has been
+    depreceated in HTML5. The abbr rag should now be used for all types of
+    abbrevations, including acronyms,to maintain modern web standards.
+  </p>
+  <p>
+    Another example : The
+    <acronym title="World Health Organisation">WHO</acronym> is a specialized
+    agency of the United Nation and
+    <acronym title="North Atlantic Treaty Organization">Nato</acronym> is
+    military alliance.
+  </p>
+  <h3>Address</h3>
+  <p>
+    The address tag defines contact information for the author/owner of a
+    document or a article.
+  </p>
+  <address>
+    Written by John Doe.<br />
+    Visit us at : <br />123 Web Street, Suit 456 <br />Internet City, IC 78901
+    <br />USA
+  </address>
+  <h3>Defination Term</h3>
+  <p>
+    The dfn tag is used to indicte the defining instance of a term. For
+    example <dfn>HTML </dfn>is the standard markup language for creating web
+    pages.
+  </p>
+  <h3>Time</h3>
+  <p>
+    The time tag represents aspecific period in time. The events staet at
+    <time>7:00 PM on August 1st, 2024</time>
+  </p>
+  <p>My birthday is on <time>May 20th.</time></p>
+  <hr />
+  <h3>Structural Elements for Content Flow</h3>
+  <p>These tags help organize content and control basic document flow.</p>
+  <h3>Horizontal Rule</h3>
+  <p>
+    The hr tag create a thematic break in content, often rendered as
+    horizontal line.
+  </p>
+  <p>Above this line is one section of content.</p>
+  <hr />
+  <p>
+    Below this line is another section of content, separated by a horizontal
+    rule.
+  </p>
+  <h3>Line Break</h3>
+  <p>
+    The br tag creates a line break, forcing the next to the line without
+    starting a new paragraph
+  </p>
+</body>
+
+</html>

@@ -1,0 +1,149 @@
+Que 1 : Write a 'JavaScript' program to check and print that the given number is even or odd without using ternary operator and control statements and print the output on the console.
+--------
+
+Sample input : let a = 10
+Sample Output : EVEN
+
+Sample input : let a = 125
+Sample Output : ODD
+
+Note : Don't use any control statement only use logical operators and Take the input from the user using prompt() function.
+                               
+========================================================================================================
+
+Que 2 : Write a 'JavaScript' program to check and print the Maximum number among two numbers without using ternary operator, control statements and predefined methods.
+--------
+
+Sample input : let a = 10 , b = 20
+Sample Output : MAX = 20
+
+Note : Don't use any control statement or predefined methods only use operators and Take the input from the user using prompt() function..        
+                     
+========================================================================================================  
+
+Que 3 : Write a 'JavaScript' program to check and print the Maximum number among three numbers without using ternary operator, control statements and predefined methods.
+--------
+
+Sample input : let a = 10 , b = 200, c = 134;
+Sample Output : MAX = 200
+
+Note : only use operators to solve the question and Take the input from the user using prompt() function..
+                             
+========================================================================================================
+
+Que 4 :  Write a 'JavaScript' program to check and print the Maximum number among three numbers using ternary operator.
+--------
+
+Sample input : let a = 10 , b = 200, c = 134;
+Sample Output : MAX = 200
+
+Note : Take the input from the user using prompt() function.            
+========================================================================================================  
+
+Que 5 :  Write a 'JavaScript' program to check and print that given number is even or odd using ternary operator.
+--------
+
+Sample input : let a = 10
+Sample Output : EVEN
+
+Sample input : let a = 125
+Sample Output : ODD
+                         
+Note : Take the input from the user using prompt() function.  
+     
+========================================================================================================                  
+
+Que 6 : A shopkeeper buys a TV set for Rs. 3500 and sells it at a profit of 27%. Apart from this a VAT of 12.7% and Service Charge is 3.87% is charged.
+-------  Write a JavaScript program to Display total selling price, profit along with vat and service charge.
+         To calculate the selling price, profit, VAT, and service charge, follow these steps:
+
+         1) Calculate the selling price:
+
+            Selling Price = Cost Price + Profit
+
+            Selling Price = Rs. 3500 + (27% of Rs. 3500)
+
+
+         2) Calculate the profit:
+
+            Profit = Selling Price - Cost Price
+
+
+         3) Calculate VAT:
+
+            VAT = 12.7% of Selling Price
+
+
+         4) Calculate Service Charge:
+
+            Service Charge = 3.87% of Selling Price
+
+    Sample output :
+            Cost Price: Rs. 3500.00
+            Profit (27%): Rs. 945.00
+            Selling Price (without VAT & Service Charge): Rs. 4445.00
+            VAT (12.7%): Rs. 564.52
+            Service Charge (3.87%): Rs. 171.00
+ 
+
+ ================================================================================================
+
+ Que 6 : Develop a program for an online bus ticket booking platform called "Bus Ticket Booker."
+------  The platform offers tickets for a fixed price of Rs. 300 per seat. However, there are discounts available for senior citizens.
+        If a passenger's age is between 60 and 100 , they will receive a 20% discount on the total booking cost.
+
+        Write a JavaScript program for "Bus Ticket Booker" that takes the number of tickets and the age of the passenger as inputs and calculates the total booking cost after applying any     applicable discount using the ternary operator. The program should display the bill with a suitable message, including the total cost and the discount amount (if applicable).
+
+        Your task is to implement the program logic using only Ternary Operator.
+
+
+Example 1: Passenger is not a senior citizen
+Sample Input:
+              number of tickets: 3
+              age of the passenger: 45
+
+Sample Output:
+              Total cost before discount: Rs. 900.00
+              Discount amount: Rs. 0.00
+              Total cost after discount: Rs. 900.00
+
+
+Example 2: Passenger is a senior citizen
+Sample Input:
+              number of tickets: 2
+              age of the passenger: 65
+
+Sample Output:
+              Total cost before discount: Rs. 600.00
+              Discount amount: Rs. 120.00
+             Total cost after discount: Rs. 480.00
+
+Note : Take the input from the user using prompt() function.  
+
+========================================================================================================      
+   
+Que 7 : Write a C program that takes an integer as input and checks if it is a positive, negative, or zero.
+------- Display the appropriate message as output using the ternary operator.
+   
+
+    Sample Input:
+              enter a number: -1
+             
+
+    Sample Output:
+        you entered negative number
+
+
+    Sample Input:
+                 enter a number: 1
+
+    Sample Output:
+        you entered positive number
+
+    Sample Input:
+                  enter a number: 0
+     
+    Sample Output:
+        you entered zero
+
+Note : Take the input from the user using prompt() function.  

@@ -1,0 +1,210 @@
+.divv {
+  margin: 10px;
+  padding: 10px;
+  height: 150px;
+  width: 250px;
+  border: 2px cornflowerblue solid;
+  text-align: center;
+  border-radius: 12px;
+  display: inline-block;
+}
+.dicv {
+  margin: 10px;
+  padding: 10px;
+  height: 150px;
+  width: 250px;
+  border: 2px rgb(15, 143, 60) dotted;
+  text-align: center;
+  border-radius: 12px;
+  display: inline-block;
+}
+.dic {
+  margin: 10px;
+  padding: 10px;
+  height: 150px;
+  width: 250px;
+  border: 2px rgb(143, 15, 15) dashed;
+  text-align: center;
+  border-radius: 12px;
+  display: inline-block;
+}
+.difv {
+  margin: 10px;
+  padding: 10px;
+  height: 150px;
+  width: 250px;
+  border: 2px rgb(30, 15, 143) groove;
+  text-align: center;
+  border-radius: 12px;
+  display: inline-block;
+}
+.diev {
+  margin: 10px;
+  padding: 10px;
+  height: 150px;
+  width: 250px;
+  border: 2px rgb(115, 143, 15) double;
+  text-align: center;
+  border-radius: 12px;
+  display: inline-block;
+}
+.di {
+  margin: 10px;
+  padding: 10px;
+  height: 150px;
+  width: 250px;
+  border: 2px rgb(143, 15, 128) outset;
+  text-align: center;
+  border-radius: 12px;
+  display: inline-block;
+}
+.dg {
+  margin: 10px;
+  padding: 10px;
+  height: 150px;
+  width: 250px;
+  border: 2px rgb(143, 15, 128) Inset;
+  text-align: center;
+  border-radius: 12px;
+  display: inline-block;
+}
+.dh {
+  margin: 10px;
+  padding: 10px;
+  height: 150px;
+  width: 250px;
+  border: 5px rgb(143, 130, 15) outset;
+  text-align: center;
+  border-radius: 12px;
+  display: inline-block;
+}
+.dk {
+  margin: 10px;
+  padding: 10px;
+  height: 150px;
+  width: 250px;
+  border: 10px rgb(0, 217, 29) outset;
+  text-align: center;
+  border-radius: 12px;
+  display: inline-block;
+}
+.df {
+  margin: 10px;
+  padding: 10px;
+  height: 150px;
+  width: 250px;
+  border: 2px rgb(0, 217, 29) ridge;
+  text-align: center;
+  border-radius: 12px;
+  display: inline-block;
+}
+.a {
+  margin: 10px;
+  padding: 10px;
+  height: 150px;
+  width: 250px;
+  border: 2px #120555 ridge;
+  text-align: center;
+  border-radius: 12px;
+  display: inline-block;
+}
+.b {
+  margin: 10px;
+  padding: 10px;
+  height: 150px;
+  width: 250px;
+  border: 2px rgb(75, 0, 130) ridge;
+  text-align: center;
+  border-radius: 12px;
+  display: inline-block;
+}
+.C {
+  margin: 10px;
+  padding: 10px;
+  height: 150px;
+  width: 250px;
+  border: 2px red ridge;
+  text-align: center;
+  border-radius: 5px;
+  display: inline-block;
+}
+.d {
+  margin: 10px;
+  padding: 10px;
+  height: 150px;
+  width: 250px;
+  border: 2px rgb(0, 217, 29) ridge;
+  text-align: center;
+  border-radius: 5px;
+  display: inline-block;
+}
+.e {
+  margin: 10px;
+  padding: 10px;
+  height: 250px;
+  width: 220px;
+  border: 2px rgb(0, 217, 29) ridge;
+  text-align: center;
+  border-radius: 50%;
+  display: inline-block;
+}
+.D {
+  margin: 10px;
+  padding: 10px;
+  height: 150px;
+  width: 250px;
+  border: 2px rgb(0, 217, 29) ridge;
+  text-align: center;
+  border-radius: 15px;
+  display: inline-block;
+}
+.g {
+  margin: 10px;
+  padding: 10px;
+  height: 150px;
+  width: 250px;
+  border-top: 2px solid rgb(0, 217, 29);
+  text-align: center;
+  border-radius: 15px;
+  display: inline-block;
+}
+.h{
+   margin: 10px;
+  padding: 10px;
+  height: 150px;
+  width: 250px;
+  border-right: 2px solid rgb(0, 217, 29);
+  text-align: center;
+  border-radius: 15px;
+  display: inline-block; 
+}
+.i{
+    margin: 10px;
+  padding: 10px;
+  height: 150px;
+  width: 250px;
+  border-left: 2px solid rgb(0, 217, 29);
+  text-align: center;
+  border-radius: 15px;
+  display: inline-block;
+}
+.j{
+    margin: 10px;
+  padding: 10px;
+  height: 150px;
+  width: 250px;
+  border-bottom: 2px solid rgb(0, 217, 29);
+  text-align: center;
+  border-radius: 15px;
+  display: inline-block;
+}
+.f{
+    margin: 10px;
+  padding: 10px;
+  height: 150px;
+  width: 250px;
+  border: 3px dashed #8b5cf6;
+  text-align: center;
+  border-radius: 15px;
+  display: inline-block;
+}

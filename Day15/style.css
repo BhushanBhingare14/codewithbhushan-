@@ -1,0 +1,211 @@
+.parent {
+  /* margin: 2px;*/
+  padding: 5px;
+  border: 2px solid;
+  height: 200px;
+  width: 500px vh;
+  display: flex;
+  gap: 10px;
+
+  /* flex-direction: row; */
+  /* display: contents; */
+}
+.class1,
+.class2,
+.class3 {
+  border: 2px solid;
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+  /* justify-content: center; */
+  text-align: center;
+  /* align-items: center; */
+  align-content: center;
+}
+.parent1 {
+  /* margin: 2px;*/
+  padding: 5px;
+  border: 2px solid;
+  height: 200px;
+  width: 500px vh;
+  display: flex;
+  gap: 10px;
+
+  flex-direction: column;
+  /* display: contents; */
+}
+.class4,
+.class5,
+.class6 {
+  border: 2px solid;
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+  /* justify-content: center; */
+  text-align: center;
+  /* align-items: center; */
+  align-content: center;
+}
+.parent3 {
+  /* margin: 2px;*/
+  padding: 5px;
+  border: 2px solid;
+  height: 200px;
+  width: 500px vh;
+  display: flex;
+  gap: 10px;
+
+  flex-direction: row-reverse;
+  /* display: contents; */
+}
+.class7,
+.class8,
+.class9 {
+  border: 2px solid;
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+  /* justify-content: center; */
+  text-align: center;
+  /* align-items: center; */
+  align-content: center;
+}
+.parent4 {
+  /* margin: 2px;*/
+  padding: 5px;
+  border: 2px solid;
+  height: 200px;
+  width: 500px vh;
+  display: flex;
+  gap: 10px;
+
+  flex-direction: column-reverse;
+  /* display: contents; */
+}
+.class10,
+.class11,
+.class12 {
+  border: 2px solid;
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+  /* justify-content: center; */
+  text-align: center;
+  /* align-items: center; */
+  align-content: center;
+}
+.parent5 {
+  /* margin: 2px;*/
+  padding: 5px;
+  border: 2px solid;
+  height: 200px;
+  width: 500px vh;
+  display: flex;
+  gap: 10px;
+
+  justify-content: flex-start;
+  /* display: contents; */
+}
+.class13,
+.class14,
+.class15 {
+  border: 2px solid;
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+  /* justify-content: center; */
+  text-align: center;
+  /* align-items: center; */
+  align-content: center;
+}
+.parent6 {
+  /* margin: 2px;*/
+  padding: 5px;
+  border: 2px solid;
+  height: 200px;
+  width: 500px vh;
+  display: flex;
+  gap: 10px;
+
+  justify-content: flex-end;
+  /* display: contents; */
+}
+.class16,
+.class17,
+.class18 {
+  border: 2px solid;
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+  /* justify-content: center; */
+  text-align: center;
+  /* align-items: center; */
+  align-content: center;
+}
+.parent7 {
+  /* margin: 2px;*/
+  padding: 5px;
+  border: 2px solid;
+  height: 200px;
+  width: 500px vh;
+  display: flex;
+  gap: 10px;
+
+  justify-content: center;
+}
+.class19,
+.class20,
+.class21 {
+  border: 2px solid;
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+  /* justify-content: center; */
+  text-align: center;
+  /* align-items: center; */
+  align-content: center;
+}
+.parent8 {
+  /* margin: 2px;*/
+  padding: 5px;
+  border: 2px solid;
+  height: 200px;
+  width: 500px vh;
+  display: flex;
+  /* gap: 10px; */
+  justify-content: space-between;
+}
+.class22,
+.class23,
+.class24 {
+  border: 2px solid;
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+  /* justify-content: center; */
+  text-align: center;
+  /* align-items: center; */
+  align-content: center;
+}
+.parent9 {
+  /* margin: 2px;*/
+  padding: 5px;
+  border: 2px solid;
+  height: 200px;
+  width: 500px vh;
+  display: flex;
+  /* gap: 10px; */
+  justify-content: space-around;
+}
+.class25,
+.class26,
+.class27 {
+  border: 2px solid;
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+  /* justify-content: center; */
+  text-align: center;
+  /* align-items: center; */
+  align-content: center;
+}

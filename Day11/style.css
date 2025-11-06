@@ -1,0 +1,50 @@
+#av {
+  border: 2px solid blue;
+}
+#bv{
+    border: 2px solid blueviolet
+}
+#af{
+    border: 2px dashed red;
+}
+#af{
+    border: 2px dotted orange;
+}
+#b{
+    background-color: lightyellow;
+    font-style: italic;
+}
+#c{
+    background-color: rgb(224, 225, 255);
+    font-style: bold;
+}
+#d{
+    background-color: aqua;
+    font-style: normal;
+}
+#e{
+    background-color: aqua;
+    font-style: normal;
+    text-transform: uppercase;
+}
+.bh {
+  color: red;
+  font-family: "Times New Roman", Times, serif;
+}
+.bu {
+  color: navy;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bs {
+  color: forestgreen;
+  font-family: "Courier New", Courier, monospace;
+}
+.be {
+  color: darkorange;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.ba {
+  color: aqua;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,79 @@
+header{
+    margin: 10px;
+    padding: 5px;
+    border: 2px rgb(232, 255, 205) solid;
+   box-shadow: 5px 5px 5px rgb(112, 50, 192);
+    height: fit-content;
+    width: 100% vh;
+    text-align: center; 
+    font-style: normal;
+    display: flexbox;
+    gap: 10px;
+}
+.a{
+    margin: 10px;
+    padding: 5px;
+    border: 2px rgb(232, 255, 205) solid;
+    height: 450px;
+    width:100%vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgb(112, 50, 192);
+
+}
+.b{ 
+    margin: 10px;
+     border: 2px rgb(232, 255, 205) solid;
+    height: 400px;
+    width:30% ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgb(156, 50, 192);
+
+}
+.c{
+   margin: 10px;
+    padding: 0px;
+    border: 2px rgb(232, 255, 205) solid;
+    height: 400px;
+    width:70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    justify-content: space-evenly;
+    box-shadow: 5px 5px 5px rgb(156, 50, 192);
+    
+}
+.class1,.class2,.class3{
+    margin: 5px;
+     border: 2px rgb(232, 255, 205) solid;
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+     align-items: center;
+     text-align: center;
+     box-shadow: 5px 5px 5px rgb(192, 50, 178);
+}
+h1{
+    justify-content: center;
+    
+    align-items: center;
+}
+footer{
+     margin: 5px;
+    padding: 5px;
+    border: 2px rgb(232, 255, 205) solid;
+    
+    height: fit-content;
+    width: 100% vh;
+    text-align: center; 
+    font-style: normal;
+    display: flexbox;
+    gap: 5px;
+    box-shadow: 5px 5px 5px rgb(112, 50, 192);
+}
